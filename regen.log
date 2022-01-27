@@ -1,0 +1,13 @@
+2022-01-22 09:58:12,852 | INFO : Started
+2022-01-22 09:58:12,852 | INFO : Finished
+2022-01-22 10:00:00,253 | INFO : Started
+2022-01-22 10:00:00,253 | INFO : Finished
+2022-01-22 10:00:30,558 | INFO : Started
+2022-01-22 10:00:30,560 | ERROR : Could not connect to openwheather: Invalid URL 'api.openweathermp.org/data/2.5/weather?lat=52.353681668987726&lon=4.92548286993842&appid=78efb78287a0d947d2bf4726b4bb6f60&units=metric': No schema supplied. Perhaps you meant http://api.openweathermp.org/data/2.5/weather?lat=52.353681668987726&lon=4.92548286993842&appid=78efb78287a0d947d2bf4726b4bb6f60&units=metric?
+2022-01-22 10:00:30,560 | INFO : Finished
+2022-01-22 10:01:39,283 | INFO : Started
+2022-01-22 10:01:39,285 | ERROR : Could not connect to openwheather: Invalid URL 'api.openweathermp.org/data/2.5/weather?lat=52.353681668987726&lon=4.92548286993842&appid=78efb78287a0d947d2bf4726b4bb6f60&units=metric': No schema supplied. Perhaps you meant http://api.openweathermp.org/data/2.5/weather?lat=52.353681668987726&lon=4.92548286993842&appid=78efb78287a0d947d2bf4726b4bb6f60&units=metric?
+2022-01-22 10:01:39,285 | INFO : Finished
+2022-01-22 10:01:44,026 | INFO : Started
+2022-01-22 10:01:44,028 | ERROR : Could not connect to openwheather: Invalid URL 'api.openweathermp.org/data/2.5/weather?lat=52.353681668987726&lon=4.92548286993842&appid=78efb78287a0d947d2bf4726b4bb6f60&units=metric': No schema supplied. Perhaps you meant http://api.openweathermp.org/data/2.5/weather?lat=52.353681668987726&lon=4.92548286993842&appid=78efb78287a0d947d2bf4726b4bb6f60&units=metric?
+2022-01-22 10:01:44,028 | INFO : Finished
