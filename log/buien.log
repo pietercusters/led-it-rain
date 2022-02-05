@@ -1,1 +1,7 @@
 2022-01-27 13:17:37,857 | INFO : Finished
+2022-02-05 21:04:44,094 | INFO : Started
+2022-02-05 21:04:44,095 | INFO : Getting rain data - attempt 1/5
+2022-02-05 21:04:44,343 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2022-02-05 21:04:44,344 | INFO : Getting temp data - attempt 1/5
+2022-02-05 21:04:44,545 | INFO : Retrieved temp data from openwheather - feels like 8
+2022-02-05 21:04:44,939 | INFO : Finished
