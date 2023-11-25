@@ -18,7 +18,7 @@ DISPLAY_INTERVAL = 1      # Update every second
 CYCLE_TIME = 5            # show every cycle 5 seconds
 HEAVY = 2.5
 MOTION_SENSOR_PIN = 25  # GPIO pin number for the motion sensor
-MOTION_INTERVAL = 2  # amount of time to activate the display after motion detected
+MOTION_INTERVAL = 2 * 60  # amount of time to activate the display after motion detected
 
 
 # Initialize the LED matrix
@@ -60,7 +60,7 @@ def main():
                         > UPDATE_INTERVAL:
 
                     # get ferry ETD
-                    if 7 <= current_time.hour <= 9 or True:
+                    if 7 <= current_time.hour <= 9 and current_time.weekday() < 5: # or True:
                         ETD = get_ferry_ETD()
                     else:
                         ETD = None

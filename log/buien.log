@@ -1780,3 +1780,182 @@
 2023-11-25 15:46:30,236 | INFO : Motion detected
 2023-11-25 15:46:35,758 | INFO : Motion detected
 2023-11-25 15:46:55,848 | INFO : Motion detected
+2023-11-25 15:48:09,374 | INFO : Started
+2023-11-25 15:48:14,455 | INFO : Stopped weatherdisplay
+2023-11-25 15:51:29,673 | INFO : Started
+2023-11-25 15:51:30,699 | INFO : Retrieved temp data from openweather
+2023-11-25 15:51:38,735 | INFO : Motion detected
+2023-11-25 15:51:54,786 | INFO : Motion detected
+2023-11-25 15:52:00,303 | INFO : Motion detected
+2023-11-25 15:52:06,834 | INFO : Motion detected
+2023-11-25 15:52:44,512 | INFO : Motion detected
+2023-11-25 15:52:53,055 | INFO : Motion detected
+2023-11-25 15:53:02,582 | INFO : Motion detected
+2023-11-25 15:53:14,115 | INFO : Motion detected
+2023-11-25 15:54:00,716 | INFO : Motion detected
+2023-11-25 15:54:01,364 | INFO : Retrieved temp data from openweather
+2023-11-25 15:54:13,408 | INFO : Motion detected
+2023-11-25 15:54:41,737 | INFO : Stopped weatherdisplay
+2023-11-25 15:55:18,830 | INFO : Started
+2023-11-25 15:55:19,107 | INFO : Retrieved temp data from openweather
+2023-11-25 15:55:24,130 | INFO : Motion detected
+2023-11-25 15:56:20,386 | INFO : Motion detected
+2023-11-25 15:56:29,428 | INFO : Motion detected
+2023-11-25 15:57:20,026 | INFO : Retrieved temp data from openweather
+2023-11-25 15:58:31,359 | INFO : Motion detected
+2023-11-25 15:58:39,396 | INFO : Motion detected
+2023-11-25 15:58:47,434 | INFO : Motion detected
+2023-11-25 15:59:20,888 | INFO : Retrieved temp data from openweather
+2023-11-25 16:10:57,308 | INFO : Motion detected
+2023-11-25 16:10:57,638 | INFO : Retrieved temp data from openweather
+2023-11-25 16:11:27,779 | INFO : Motion detected
+2023-11-25 16:11:31,799 | INFO : Motion detected
+2023-11-25 16:12:58,543 | INFO : Retrieved temp data from openweather
+2023-11-25 16:17:24,082 | INFO : Motion detected
+2023-11-25 16:17:24,365 | INFO : Retrieved temp data from openweather
+2023-11-25 16:19:20,900 | INFO : Motion detected
+2023-11-25 16:19:25,221 | INFO : Retrieved temp data from openweather
+2023-11-25 16:19:33,259 | INFO : Motion detected
+2023-11-25 16:19:44,311 | INFO : Motion detected
+2023-11-25 16:19:51,345 | INFO : Motion detected
+2023-11-25 16:19:57,375 | INFO : Motion detected
+2023-11-25 16:20:05,413 | INFO : Motion detected
+2023-11-25 16:20:09,432 | INFO : Motion detected
+2023-11-25 16:21:26,004 | INFO : Retrieved temp data from openweather
+2023-11-25 16:51:51,573 | INFO : Motion detected
+2023-11-25 16:51:51,855 | INFO : Retrieved temp data from openweather
+2023-11-25 16:52:02,905 | INFO : Motion detected
+2023-11-25 16:52:08,933 | INFO : Motion detected
+2023-11-25 16:52:27,015 | INFO : Motion detected
+2023-11-25 16:52:37,065 | INFO : Motion detected
+2023-11-25 16:53:16,251 | INFO : Motion detected
+2023-11-25 16:53:52,754 | INFO : Retrieved temp data from openweather
+2023-11-25 16:53:57,777 | INFO : Motion detected
+2023-11-25 16:54:01,797 | INFO : Motion detected
+2023-11-25 16:55:19,158 | INFO : Motion detected
+2023-11-25 16:55:32,220 | INFO : Motion detected
+2023-11-25 16:55:53,619 | INFO : Retrieved temp data from openweather
+2023-11-25 16:55:54,623 | INFO : Motion detected
+2023-11-25 16:57:40,111 | INFO : Motion detected
+2023-11-25 16:57:54,420 | INFO : Retrieved temp data from openweather
+2023-11-25 16:59:56,943 | INFO : Motion detected
+2023-11-25 16:59:57,217 | INFO : Retrieved temp data from openweather
+2023-11-25 17:01:58,058 | INFO : Retrieved temp data from openweather
+2023-11-25 17:05:10,872 | INFO : Motion detected
+2023-11-25 17:05:11,140 | INFO : Retrieved temp data from openweather
+2023-11-25 17:05:39,269 | INFO : Motion detected
+2023-11-25 17:05:49,317 | INFO : Motion detected
+2023-11-25 17:05:55,346 | INFO : Motion detected
+2023-11-25 17:06:01,376 | INFO : Motion detected
+2023-11-25 17:06:05,399 | INFO : Motion detected
+2023-11-25 17:06:10,423 | INFO : Motion detected
+2023-11-25 17:06:31,522 | INFO : Motion detected
+2023-11-25 17:06:49,607 | INFO : Motion detected
+2023-11-25 17:06:57,646 | INFO : Motion detected
+2023-11-25 17:07:12,007 | INFO : Retrieved temp data from openweather
+2023-11-25 17:08:26,354 | INFO : Motion detected
+2023-11-25 17:08:34,399 | INFO : Motion detected
+2023-11-25 17:09:12,880 | INFO : Retrieved temp data from openweather
+2023-11-25 17:12:12,921 | INFO : Motion detected
+2023-11-25 17:12:13,292 | INFO : Retrieved temp data from openweather
+2023-11-25 17:12:17,311 | INFO : Motion detected
+2023-11-25 17:12:45,442 | INFO : Motion detected
+2023-11-25 17:14:14,160 | INFO : Retrieved temp data from openweather
+2023-11-25 17:17:34,092 | INFO : Motion detected
+2023-11-25 17:17:34,428 | INFO : Retrieved temp data from openweather
+2023-11-25 17:18:42,743 | INFO : Motion detected
+2023-11-25 17:19:35,256 | INFO : Retrieved temp data from openweather
+2023-11-25 17:23:25,870 | INFO : Motion detected
+2023-11-25 17:23:26,161 | INFO : Retrieved temp data from openweather
+2023-11-25 17:23:33,191 | INFO : Motion detected
+2023-11-25 17:23:38,219 | INFO : Motion detected
+2023-11-25 17:23:45,254 | INFO : Motion detected
+2023-11-25 17:24:00,326 | INFO : Motion detected
+2023-11-25 17:24:12,383 | INFO : Motion detected
+2023-11-25 17:24:19,417 | INFO : Motion detected
+2023-11-25 17:24:23,437 | INFO : Motion detected
+2023-11-25 17:24:29,467 | INFO : Motion detected
+2023-11-25 17:24:38,510 | INFO : Motion detected
+2023-11-25 17:24:41,526 | INFO : Motion detected
+2023-11-25 17:24:47,555 | INFO : Motion detected
+2023-11-25 17:24:55,595 | INFO : Motion detected
+2023-11-25 17:25:04,638 | INFO : Motion detected
+2023-11-25 17:25:26,992 | INFO : Retrieved temp data from openweather
+2023-11-25 17:26:08,182 | INFO : Motion detected
+2023-11-25 17:26:23,251 | INFO : Motion detected
+2023-11-25 17:26:33,299 | INFO : Motion detected
+2023-11-25 17:26:38,324 | INFO : Motion detected
+2023-11-25 17:27:10,474 | INFO : Motion detected
+2023-11-25 17:27:16,502 | INFO : Motion detected
+2023-11-25 17:27:27,840 | INFO : Retrieved temp data from openweather
+2023-11-25 17:28:03,002 | INFO : Motion detected
+2023-11-25 17:29:28,728 | INFO : Retrieved temp data from openweather
+2023-11-25 18:41:04,162 | INFO : Motion detected
+2023-11-25 18:41:04,464 | INFO : Retrieved temp data from openweather
+2023-11-25 18:41:10,492 | INFO : Motion detected
+2023-11-25 18:41:48,669 | INFO : Motion detected
+2023-11-25 18:41:57,713 | INFO : Motion detected
+2023-11-25 18:42:07,760 | INFO : Motion detected
+2023-11-25 18:43:05,409 | INFO : Retrieved temp data from openweather
+2023-11-25 18:48:42,116 | INFO : Motion detected
+2023-11-25 18:48:42,513 | INFO : Retrieved temp data from openweather
+2023-11-25 18:50:04,889 | INFO : Motion detected
+2023-11-25 18:50:43,343 | INFO : Retrieved temp data from openweather
+2023-11-25 18:58:59,879 | INFO : Motion detected
+2023-11-25 18:59:00,174 | INFO : Retrieved temp data from openweather
+2023-11-25 18:59:04,192 | INFO : Motion detected
+2023-11-25 18:59:11,227 | INFO : Motion detected
+2023-11-25 18:59:26,298 | INFO : Motion detected
+2023-11-25 19:01:01,189 | INFO : Retrieved temp data from openweather
+2023-11-25 19:27:44,835 | INFO : Motion detected
+2023-11-25 19:27:45,133 | INFO : Retrieved temp data from openweather
+2023-11-25 19:28:14,271 | INFO : Motion detected
+2023-11-25 19:29:46,023 | INFO : Retrieved temp data from openweather
+2023-11-25 19:30:38,209 | INFO : Motion detected
+2023-11-25 19:31:20,410 | INFO : Motion detected
+2023-11-25 19:31:46,833 | INFO : Retrieved temp data from openweather
+2023-11-25 20:03:30,635 | INFO : Motion detected
+2023-11-25 20:03:30,980 | INFO : Retrieved temp data from openweather
+2023-11-25 20:03:42,030 | INFO : Motion detected
+2023-11-25 20:03:47,053 | INFO : Motion detected
+2023-11-25 20:05:04,416 | INFO : Motion detected
+2023-11-25 20:05:31,864 | INFO : Retrieved temp data from openweather
+2023-11-25 20:06:04,012 | INFO : Motion detected
+2023-11-25 20:07:32,693 | INFO : Retrieved temp data from openweather
+2023-11-25 20:30:38,565 | INFO : Motion detected
+2023-11-25 20:30:38,841 | INFO : Retrieved temp data from openweather
+2023-11-25 20:32:39,664 | INFO : Retrieved temp data from openweather
+2023-11-25 20:35:11,924 | INFO : Motion detected
+2023-11-25 20:35:12,236 | INFO : Retrieved temp data from openweather
+2023-11-25 20:37:13,096 | INFO : Retrieved temp data from openweather
+2023-11-25 20:38:31,743 | INFO : Motion detected
+2023-11-25 20:39:13,224 | INFO : Retrieved temp data from openweather
+2023-11-25 20:44:07,954 | INFO : Motion detected
+2023-11-25 20:44:08,278 | INFO : Retrieved temp data from openweather
+2023-11-25 20:46:09,179 | INFO : Retrieved temp data from openweather
+2023-11-25 21:29:14,335 | INFO : Motion detected
+2023-11-25 21:29:14,646 | INFO : Retrieved temp data from openweather
+2023-11-25 21:30:43,056 | INFO : Motion detected
+2023-11-25 21:31:15,467 | INFO : Retrieved temp data from openweather
+2023-11-25 21:48:31,885 | INFO : Motion detected
+2023-11-25 21:48:32,177 | INFO : Retrieved temp data from openweather
+2023-11-25 21:49:16,382 | INFO : Motion detected
+2023-11-25 21:50:33,066 | INFO : Retrieved temp data from openweather
+2023-11-25 22:31:53,677 | INFO : Motion detected
+2023-11-25 22:31:53,973 | INFO : Retrieved temp data from openweather
+2023-11-25 22:32:06,030 | INFO : Motion detected
+2023-11-25 22:32:26,126 | INFO : Motion detected
+2023-11-25 22:33:54,818 | INFO : Retrieved temp data from openweather
+2023-11-26 00:00:15,170 | INFO : Motion detected
+2023-11-26 00:00:15,501 | INFO : Retrieved temp data from openweather
+2023-11-26 00:00:26,551 | INFO : Motion detected
+2023-11-26 00:00:46,646 | INFO : Motion detected
+2023-11-26 00:00:52,675 | INFO : Motion detected
+2023-11-26 00:02:16,398 | INFO : Retrieved temp data from openweather
+2023-11-26 00:04:17,717 | INFO : Motion detected
+2023-11-26 00:04:18,059 | INFO : Retrieved temp data from openweather
+2023-11-26 00:05:01,261 | INFO : Motion detected
+2023-11-26 00:06:18,959 | INFO : Retrieved temp data from openweather
+2023-11-26 00:07:38,508 | INFO : Stopped weatherdisplay
+2023-11-26 00:07:45,798 | INFO : Started
+2023-11-26 00:07:46,052 | INFO : Retrieved temp data from openweather
