@@ -12,8 +12,9 @@ from pont import get_ferry_ETD
 # input lat & long from address here
 LAT = 52.353681668987726
 LNG = 4.92548286993842
-UPDATE_INTERVAL = 60 * 5  # Refresh temp & ETD every 5 minutes
+UPDATE_INTERVAL = 60 * 2  # Refresh temp & ETD every 2 minutes
 DISPLAY_INTERVAL = 1      # Update every second
+CYCLE_TIME = 5            # show every cycle 5 seconds
 HEAVY = 2.5
 
 # Initialize the LED matrix
@@ -41,7 +42,7 @@ def main():
                         > UPDATE_INTERVAL:
 
                     # get ferry ETD
-                    if 7 <= current_time.hour <= 9:
+                    if 7 <= current_time.hour <= 9 or True:
                         ETD = get_ferry_ETD()
                     else:
                         ETD = None
@@ -74,29 +75,38 @@ def main():
 
 def update_display(device, temp, ETD, rain):
     with canvas(device) as draw:
-        # draw rain curve - disabled for now
-        if rain is not None:
-            for xpos, level in enumerate(rain):
-                draw.line((xpos, 8-level, xpos, 8), fill="white")
 
-        # draw temp
-        if temp is not None:
-            if len(temp) == 1:
-                draw_digit(temp, draw, 27)
-            elif len(temp) == 2:
-                draw_digit(temp[0], draw, 25)
-                draw_digit(temp[1], draw, 29)
-            else: # double digit freezing -- show min min
-                draw_digit('-', draw, 25)
-                draw_digit('-', draw, 29)
+        if int(datetime.now().second / CYCLE_TIME) % 2 == 0:
+            #draw weather
 
-        if ETD is not None:
-            now = datetime.now()
-            diff = ETD - now
-            minutes, seconds = divmod(abs(diff.total_seconds()), 60)
-            time_remaining = "{:02d}:{:02d}".format(int(minutes), int(seconds))
-            for xpos, digit in time_remaining:
-                draw_digit(digit, draw, (xpos*4)+3)
+            if rain is not None:
+                for xpos, level in enumerate(rain):
+                    draw.line((xpos, 8-level, xpos, 8), fill="white")
+
+            # draw temp
+            if temp is not None:
+                if len(temp) == 1:
+                    draw_digit(temp, draw, 27)
+                elif len(temp) == 2:
+                    draw_digit(temp[0], draw, 25)
+                    draw_digit(temp[1], draw, 29)
+                else: # double digit freezing -- show min min
+                    draw_digit('-', draw, 25)
+                    draw_digit('-', draw, 29)
+
+        else:
+
+            if ETD is not None:
+                now = datetime.now()
+                diff = ETD - now
+                minutes, seconds = divmod(abs(diff.total_seconds()), 60)
+                time_remaining = "{:02d}:{:02d}".format(int(minutes), int(seconds))
+                offset = 7
+                draw_digit(time_remaining[0], draw, offset)
+                draw_digit(time_remaining[1], draw, offset+4)
+                draw_digit(time_remaining[2], draw, offset+8) # this is the colon, only 3 wide
+                draw_digit(time_remaining[3], draw, offset+10) 
+                draw_digit(time_remaining[4], draw, offset+14)
 
 
 def get_temp(lat, lng):
@@ -230,8 +240,8 @@ def draw_digit(digit, draw, offset=0):
         draw.line((offset+1, 3, offset+2, 3), fill=255)       # links-rechts mid
 
     if digit == ':':
-        draw.line((offset+1, 2, offset+1, 2), fill=255)       # links-rechts mid
-        draw.line((offset+1, 4, offset+1, 4), fill=255)       # links-rechts mid
+        draw.line((offset, 2, offset, 2), fill=255)       # links-rechts mid
+        draw.line((offset, 4, offset, 4), fill=255)       # links-rechts mid
 
     return draw
 
