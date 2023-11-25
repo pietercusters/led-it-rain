@@ -59,6 +59,7 @@ def main():
         pass
     finally:
         # Clear the display when exiting the script
+        logging.info('Stopping script')
         with canvas(device) as draw:
             draw.rectangle(device.bounding_box, outline="black", fill="black")
 
@@ -148,8 +149,9 @@ def get_rain(lat, lng):
             rain_intensities.append(rain_mm_h)
             max_intensity = max(rain_mm_h, max_intensity)
 
+    print(rain_intensities)
     # scale everything on scale of 2.5mm/h (or the max of the rain intensities) and multiply by 8 to get to scale of 0-8
-    rain_levels = [int(round(x/max(max_intensity, HEAVY)*8)) for x in rain_intensities]
+    rain_levels = [int(round(x/max(max_intensity, HEAVY)))*8 for x in rain_intensities]
 
     return rain_levels
 

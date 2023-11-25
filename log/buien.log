@@ -1285,3 +1285,384 @@
 2023-11-23 16:16:02,582 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
 2023-11-23 16:16:02,587 | INFO : Getting temp data - attempt 1/3
 2023-11-23 16:16:02,962 | INFO : Retrieved temp data from openweather
+2023-11-23 16:31:03,791 | INFO : Getting rain data - attempt 1/3
+2023-11-23 16:31:04,101 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-23 16:31:04,105 | INFO : Getting temp data - attempt 1/3
+2023-11-23 16:31:04,374 | INFO : Retrieved temp data from openweather
+2023-11-23 16:46:05,121 | INFO : Getting rain data - attempt 1/3
+2023-11-23 16:46:05,460 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-23 16:46:05,465 | INFO : Getting temp data - attempt 1/3
+2023-11-23 16:46:05,669 | ERROR : Could not connect to openwheather: HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/weather?lat=52.353681668987726&lon=4.92548286993842&appid=78efb78287a0d947d2bf4726b4bb6f60&units=metric (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1123)')))
+2023-11-23 16:46:06,678 | INFO : Getting temp data - attempt 2/3
+2023-11-23 16:46:07,070 | INFO : Retrieved temp data from openweather
+2023-11-23 17:01:07,831 | INFO : Getting rain data - attempt 1/3
+2023-11-23 17:01:08,205 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-23 17:01:08,210 | INFO : Getting temp data - attempt 1/3
+2023-11-23 17:01:08,815 | INFO : Retrieved temp data from openweather
+2023-11-23 17:16:09,671 | INFO : Getting rain data - attempt 1/3
+2023-11-23 17:16:09,995 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-23 17:16:09,999 | INFO : Getting temp data - attempt 1/3
+2023-11-23 17:16:10,308 | INFO : Retrieved temp data from openweather
+2023-11-23 17:31:11,122 | INFO : Getting rain data - attempt 1/3
+2023-11-23 17:31:11,457 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-23 17:31:11,462 | INFO : Getting temp data - attempt 1/3
+2023-11-23 17:31:11,788 | INFO : Retrieved temp data from openweather
+2023-11-23 17:46:12,581 | INFO : Getting rain data - attempt 1/3
+2023-11-23 17:46:12,901 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-23 17:46:12,904 | INFO : Getting temp data - attempt 1/3
+2023-11-23 17:46:13,227 | INFO : Retrieved temp data from openweather
+2023-11-24 08:30:51,509 | INFO : Started
+2023-11-24 08:30:51,530 | INFO : Getting rain data - attempt 1/3
+2023-11-24 08:30:53,055 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 08:30:53,082 | INFO : Getting temp data - attempt 1/3
+2023-11-24 08:30:53,384 | INFO : Retrieved temp data from openweather
+2023-11-24 08:45:54,141 | INFO : Getting rain data - attempt 1/3
+2023-11-24 08:45:54,475 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 08:45:54,480 | INFO : Getting temp data - attempt 1/3
+2023-11-24 08:45:54,755 | INFO : Retrieved temp data from openweather
+2023-11-24 09:00:55,520 | INFO : Getting rain data - attempt 1/3
+2023-11-24 09:00:55,824 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 09:00:55,830 | INFO : Getting temp data - attempt 1/3
+2023-11-24 09:00:56,157 | INFO : Retrieved temp data from openweather
+2023-11-24 09:15:56,891 | INFO : Getting rain data - attempt 1/3
+2023-11-24 09:15:57,163 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 09:15:57,167 | INFO : Getting temp data - attempt 1/3
+2023-11-24 09:15:57,449 | INFO : Retrieved temp data from openweather
+2023-11-24 09:30:58,260 | INFO : Getting rain data - attempt 1/3
+2023-11-24 09:30:58,537 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 09:30:58,543 | INFO : Getting temp data - attempt 1/3
+2023-11-24 09:30:58,857 | INFO : Retrieved temp data from openweather
+2023-11-24 09:45:59,641 | INFO : Getting rain data - attempt 1/3
+2023-11-24 09:45:59,962 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 09:45:59,968 | INFO : Getting temp data - attempt 1/3
+2023-11-24 09:46:00,241 | INFO : Retrieved temp data from openweather
+2023-11-24 10:01:01,012 | INFO : Getting rain data - attempt 1/3
+2023-11-24 10:01:01,330 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 10:01:01,338 | INFO : Getting temp data - attempt 1/3
+2023-11-24 10:01:02,202 | INFO : Retrieved temp data from openweather
+2023-11-24 10:16:03,071 | INFO : Getting rain data - attempt 1/3
+2023-11-24 10:16:03,350 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 10:16:03,356 | INFO : Getting temp data - attempt 1/3
+2023-11-24 10:16:04,833 | INFO : Retrieved temp data from openweather
+2023-11-24 10:31:05,655 | INFO : Getting rain data - attempt 1/3
+2023-11-24 10:31:05,973 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 10:31:05,979 | INFO : Getting temp data - attempt 1/3
+2023-11-24 10:31:06,315 | INFO : Retrieved temp data from openweather
+2023-11-24 10:46:07,010 | INFO : Getting rain data - attempt 1/3
+2023-11-24 10:46:07,335 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 10:46:07,340 | INFO : Getting temp data - attempt 1/3
+2023-11-24 10:46:07,583 | INFO : Retrieved temp data from openweather
+2023-11-24 11:01:08,331 | INFO : Getting rain data - attempt 1/3
+2023-11-24 11:01:08,638 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 11:01:08,644 | INFO : Getting temp data - attempt 1/3
+2023-11-24 11:01:08,953 | INFO : Retrieved temp data from openweather
+2023-11-24 11:16:09,641 | INFO : Getting rain data - attempt 1/3
+2023-11-24 11:16:09,927 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 11:16:09,933 | INFO : Getting temp data - attempt 1/3
+2023-11-24 11:16:10,182 | INFO : Retrieved temp data from openweather
+2023-11-24 11:31:10,951 | INFO : Getting rain data - attempt 1/3
+2023-11-24 11:31:11,239 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 11:31:11,244 | INFO : Getting temp data - attempt 1/3
+2023-11-24 11:31:11,517 | INFO : Retrieved temp data from openweather
+2023-11-24 11:46:12,270 | INFO : Getting rain data - attempt 1/3
+2023-11-24 11:46:12,550 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 11:46:12,554 | INFO : Getting temp data - attempt 1/3
+2023-11-24 11:46:12,818 | INFO : Retrieved temp data from openweather
+2023-11-24 12:01:13,681 | INFO : Getting rain data - attempt 1/3
+2023-11-24 12:01:13,963 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 12:01:13,968 | INFO : Getting temp data - attempt 1/3
+2023-11-24 12:01:19,391 | INFO : Retrieved temp data from openweather
+2023-11-24 12:16:20,201 | INFO : Getting rain data - attempt 1/3
+2023-11-24 12:16:20,582 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 12:16:20,586 | INFO : Getting temp data - attempt 1/3
+2023-11-24 12:16:20,865 | INFO : Retrieved temp data from openweather
+2023-11-24 12:31:21,703 | INFO : Getting rain data - attempt 1/3
+2023-11-24 12:31:22,289 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 12:31:22,293 | INFO : Getting temp data - attempt 1/3
+2023-11-24 12:31:22,561 | INFO : Retrieved temp data from openweather
+2023-11-24 12:46:23,321 | INFO : Getting rain data - attempt 1/3
+2023-11-24 12:46:23,614 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 12:46:23,619 | INFO : Getting temp data - attempt 1/3
+2023-11-24 12:46:23,958 | INFO : Retrieved temp data from openweather
+2023-11-24 13:01:24,862 | INFO : Getting rain data - attempt 1/3
+2023-11-24 13:01:25,164 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 13:01:25,169 | INFO : Getting temp data - attempt 1/3
+2023-11-24 13:01:25,478 | INFO : Retrieved temp data from openweather
+2023-11-24 13:16:26,298 | INFO : Getting rain data - attempt 1/3
+2023-11-24 13:16:26,614 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 13:16:26,618 | INFO : Getting temp data - attempt 1/3
+2023-11-24 13:16:26,938 | INFO : Retrieved temp data from openweather
+2023-11-24 13:31:27,642 | INFO : Getting rain data - attempt 1/3
+2023-11-24 13:31:28,489 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 13:31:28,494 | INFO : Getting temp data - attempt 1/3
+2023-11-24 13:31:28,849 | INFO : Retrieved temp data from openweather
+2023-11-24 13:46:29,722 | INFO : Getting rain data - attempt 1/3
+2023-11-24 13:46:30,085 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 13:46:30,089 | INFO : Getting temp data - attempt 1/3
+2023-11-24 13:46:30,342 | INFO : Retrieved temp data from openweather
+2023-11-24 14:01:31,141 | INFO : Getting rain data - attempt 1/3
+2023-11-24 14:01:31,575 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 14:01:31,579 | INFO : Getting temp data - attempt 1/3
+2023-11-24 14:01:31,894 | INFO : Retrieved temp data from openweather
+2023-11-24 14:16:32,641 | INFO : Getting rain data - attempt 1/3
+2023-11-24 14:16:32,978 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 14:16:32,984 | INFO : Getting temp data - attempt 1/3
+2023-11-24 14:16:33,271 | INFO : Retrieved temp data from openweather
+2023-11-24 14:31:34,178 | INFO : Getting rain data - attempt 1/3
+2023-11-24 14:31:34,509 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 14:31:34,513 | INFO : Getting temp data - attempt 1/3
+2023-11-24 14:31:34,761 | INFO : Retrieved temp data from openweather
+2023-11-24 14:46:35,637 | INFO : Getting rain data - attempt 1/3
+2023-11-24 14:46:35,989 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 14:46:35,993 | INFO : Getting temp data - attempt 1/3
+2023-11-24 14:46:36,321 | INFO : Retrieved temp data from openweather
+2023-11-24 15:01:37,221 | INFO : Getting rain data - attempt 1/3
+2023-11-24 15:01:37,559 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 15:01:37,563 | INFO : Getting temp data - attempt 1/3
+2023-11-24 15:01:38,127 | INFO : Retrieved temp data from openweather
+2023-11-24 15:16:38,991 | INFO : Getting rain data - attempt 1/3
+2023-11-24 15:16:39,284 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 15:16:39,289 | INFO : Getting temp data - attempt 1/3
+2023-11-24 15:16:39,590 | INFO : Retrieved temp data from openweather
+2023-11-24 15:31:40,351 | INFO : Getting rain data - attempt 1/3
+2023-11-24 15:31:40,637 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 15:31:40,642 | INFO : Getting temp data - attempt 1/3
+2023-11-24 15:31:40,922 | INFO : Retrieved temp data from openweather
+2023-11-24 15:46:41,731 | INFO : Getting rain data - attempt 1/3
+2023-11-24 15:46:42,058 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 15:46:42,062 | INFO : Getting temp data - attempt 1/3
+2023-11-24 15:46:42,369 | INFO : Retrieved temp data from openweather
+2023-11-24 16:01:43,220 | INFO : Getting rain data - attempt 1/3
+2023-11-24 16:01:43,556 | INFO : Retrieved 0 predictions on rain levels from Buienradar.nl
+2023-11-24 16:01:43,557 | INFO : Getting temp data - attempt 1/3
+2023-11-24 16:01:43,835 | INFO : Retrieved temp data from openweather
+2023-11-24 16:16:44,584 | INFO : Getting rain data - attempt 1/3
+2023-11-24 16:16:44,921 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 16:16:44,924 | INFO : Getting temp data - attempt 1/3
+2023-11-24 16:16:45,181 | INFO : Retrieved temp data from openweather
+2023-11-24 16:31:46,012 | INFO : Getting rain data - attempt 1/3
+2023-11-24 16:31:46,351 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 16:31:46,355 | INFO : Getting temp data - attempt 1/3
+2023-11-24 16:31:46,696 | INFO : Retrieved temp data from openweather
+2023-11-24 16:46:47,541 | INFO : Getting rain data - attempt 1/3
+2023-11-24 16:46:47,980 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 16:46:47,984 | INFO : Getting temp data - attempt 1/3
+2023-11-24 16:46:48,249 | INFO : Retrieved temp data from openweather
+2023-11-24 17:01:49,031 | INFO : Getting rain data - attempt 1/3
+2023-11-24 17:01:49,371 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 17:01:49,376 | INFO : Getting temp data - attempt 1/3
+2023-11-24 17:01:49,662 | INFO : Retrieved temp data from openweather
+2023-11-24 17:16:50,371 | INFO : Getting rain data - attempt 1/3
+2023-11-24 17:16:50,715 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 17:16:50,720 | INFO : Getting temp data - attempt 1/3
+2023-11-24 17:16:50,996 | INFO : Retrieved temp data from openweather
+2023-11-24 17:31:51,896 | INFO : Getting rain data - attempt 1/3
+2023-11-24 17:31:52,270 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 17:31:52,275 | INFO : Getting temp data - attempt 1/3
+2023-11-24 17:31:52,617 | INFO : Retrieved temp data from openweather
+2023-11-24 17:46:53,482 | INFO : Getting rain data - attempt 1/3
+2023-11-24 17:46:53,779 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 17:46:53,784 | INFO : Getting temp data - attempt 1/3
+2023-11-24 17:46:54,064 | INFO : Retrieved temp data from openweather
+2023-11-24 18:01:54,901 | INFO : Getting rain data - attempt 1/3
+2023-11-24 18:01:55,249 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 18:01:55,254 | INFO : Getting temp data - attempt 1/3
+2023-11-24 18:01:55,563 | INFO : Retrieved temp data from openweather
+2023-11-24 18:16:56,461 | INFO : Getting rain data - attempt 1/3
+2023-11-24 18:16:56,772 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 18:16:56,777 | INFO : Getting temp data - attempt 1/3
+2023-11-24 18:16:57,086 | INFO : Retrieved temp data from openweather
+2023-11-24 18:31:57,981 | INFO : Getting rain data - attempt 1/3
+2023-11-24 18:31:58,323 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 18:31:58,327 | INFO : Getting temp data - attempt 1/3
+2023-11-24 18:31:58,590 | INFO : Retrieved temp data from openweather
+2023-11-24 18:46:59,453 | INFO : Getting rain data - attempt 1/3
+2023-11-24 18:46:59,770 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 18:46:59,774 | INFO : Getting temp data - attempt 1/3
+2023-11-24 18:47:00,069 | INFO : Retrieved temp data from openweather
+2023-11-24 19:02:00,892 | INFO : Getting rain data - attempt 1/3
+2023-11-24 19:02:01,271 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 19:02:01,275 | INFO : Getting temp data - attempt 1/3
+2023-11-24 19:02:01,595 | INFO : Retrieved temp data from openweather
+2023-11-24 19:17:02,361 | INFO : Getting rain data - attempt 1/3
+2023-11-24 19:17:02,677 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 19:17:02,682 | INFO : Getting temp data - attempt 1/3
+2023-11-24 19:17:03,002 | INFO : Retrieved temp data from openweather
+2023-11-24 19:32:03,841 | INFO : Getting rain data - attempt 1/3
+2023-11-24 19:32:04,175 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 19:32:04,178 | INFO : Getting temp data - attempt 1/3
+2023-11-24 19:32:04,556 | INFO : Retrieved temp data from openweather
+2023-11-24 19:47:05,450 | INFO : Getting rain data - attempt 1/3
+2023-11-24 19:47:05,805 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 19:47:05,809 | INFO : Getting temp data - attempt 1/3
+2023-11-24 19:47:06,107 | INFO : Retrieved temp data from openweather
+2023-11-24 20:02:07,011 | INFO : Getting rain data - attempt 1/3
+2023-11-24 20:02:07,364 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 20:02:07,368 | INFO : Getting temp data - attempt 1/3
+2023-11-24 20:02:07,680 | INFO : Retrieved temp data from openweather
+2023-11-24 20:17:08,587 | INFO : Getting rain data - attempt 1/3
+2023-11-24 20:17:08,897 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 20:17:08,901 | INFO : Getting temp data - attempt 1/3
+2023-11-24 20:17:09,262 | INFO : Retrieved temp data from openweather
+2023-11-24 20:32:10,141 | INFO : Getting rain data - attempt 1/3
+2023-11-24 20:32:10,497 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 20:32:10,501 | INFO : Getting temp data - attempt 1/3
+2023-11-24 20:32:10,772 | INFO : Retrieved temp data from openweather
+2023-11-24 20:47:11,661 | INFO : Getting rain data - attempt 1/3
+2023-11-24 20:47:11,991 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 20:47:11,994 | INFO : Getting temp data - attempt 1/3
+2023-11-24 20:47:12,278 | INFO : Retrieved temp data from openweather
+2023-11-24 21:02:13,122 | INFO : Getting rain data - attempt 1/3
+2023-11-24 21:02:13,471 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 21:02:13,475 | INFO : Getting temp data - attempt 1/3
+2023-11-24 21:02:13,804 | INFO : Retrieved temp data from openweather
+2023-11-24 21:17:14,620 | INFO : Getting rain data - attempt 1/3
+2023-11-24 21:17:15,279 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 21:17:15,286 | INFO : Getting temp data - attempt 1/3
+2023-11-24 21:17:15,791 | INFO : Retrieved temp data from openweather
+2023-11-24 21:32:16,602 | INFO : Getting rain data - attempt 1/3
+2023-11-24 21:32:16,913 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 21:32:16,917 | INFO : Getting temp data - attempt 1/3
+2023-11-24 21:32:17,235 | INFO : Retrieved temp data from openweather
+2023-11-24 21:47:18,142 | INFO : Getting rain data - attempt 1/3
+2023-11-24 21:47:18,478 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 21:47:18,483 | INFO : Getting temp data - attempt 1/3
+2023-11-24 21:47:18,754 | INFO : Retrieved temp data from openweather
+2023-11-24 22:02:19,610 | INFO : Getting rain data - attempt 1/3
+2023-11-24 22:02:19,954 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 22:02:19,958 | INFO : Getting temp data - attempt 1/3
+2023-11-24 22:02:20,275 | INFO : Retrieved temp data from openweather
+2023-11-24 22:17:21,173 | INFO : Getting rain data - attempt 1/3
+2023-11-24 22:17:21,560 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 22:17:21,565 | INFO : Getting temp data - attempt 1/3
+2023-11-24 22:17:21,846 | INFO : Retrieved temp data from openweather
+2023-11-24 22:32:22,601 | INFO : Getting rain data - attempt 1/3
+2023-11-24 22:32:22,935 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 22:32:22,939 | INFO : Getting temp data - attempt 1/3
+2023-11-24 22:32:23,214 | INFO : Retrieved temp data from openweather
+2023-11-24 22:47:24,021 | INFO : Getting rain data - attempt 1/3
+2023-11-24 22:47:24,315 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-24 22:47:24,322 | INFO : Getting temp data - attempt 1/3
+2023-11-24 22:47:24,611 | INFO : Retrieved temp data from openweather
+2023-11-25 07:00:51,801 | INFO : Getting rain data - attempt 1/3
+2023-11-25 07:00:52,132 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-25 07:00:52,137 | INFO : Getting temp data - attempt 1/3
+2023-11-25 07:00:52,444 | INFO : Retrieved temp data from openweather
+2023-11-25 07:15:53,291 | INFO : Getting rain data - attempt 1/3
+2023-11-25 07:15:53,721 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-25 07:15:53,727 | INFO : Getting temp data - attempt 1/3
+2023-11-25 07:15:53,991 | INFO : Retrieved temp data from openweather
+2023-11-25 07:30:54,711 | INFO : Getting rain data - attempt 1/3
+2023-11-25 07:30:55,067 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-25 07:30:55,073 | INFO : Getting temp data - attempt 1/3
+2023-11-25 07:30:55,364 | INFO : Retrieved temp data from openweather
+2023-11-25 07:45:56,201 | INFO : Getting rain data - attempt 1/3
+2023-11-25 07:45:56,524 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-25 07:45:56,531 | INFO : Getting temp data - attempt 1/3
+2023-11-25 07:45:56,934 | INFO : Retrieved temp data from openweather
+2023-11-25 08:00:57,831 | INFO : Getting rain data - attempt 1/3
+2023-11-25 08:00:58,173 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-25 08:00:58,178 | INFO : Getting temp data - attempt 1/3
+2023-11-25 08:00:58,541 | INFO : Retrieved temp data from openweather
+2023-11-25 08:15:59,391 | INFO : Getting rain data - attempt 1/3
+2023-11-25 08:15:59,794 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-25 08:15:59,799 | INFO : Getting temp data - attempt 1/3
+2023-11-25 08:16:00,168 | INFO : Retrieved temp data from openweather
+2023-11-25 08:31:00,991 | INFO : Getting rain data - attempt 1/3
+2023-11-25 08:31:01,301 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-25 08:31:01,307 | INFO : Getting temp data - attempt 1/3
+2023-11-25 08:31:01,613 | INFO : Retrieved temp data from openweather
+2023-11-25 08:46:02,391 | INFO : Getting rain data - attempt 1/3
+2023-11-25 08:46:02,717 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-25 08:46:02,722 | INFO : Getting temp data - attempt 1/3
+2023-11-25 08:46:02,983 | INFO : Retrieved temp data from openweather
+2023-11-25 09:01:03,762 | INFO : Getting rain data - attempt 1/3
+2023-11-25 09:01:04,071 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-25 09:01:04,075 | INFO : Getting temp data - attempt 1/3
+2023-11-25 09:01:04,479 | INFO : Retrieved temp data from openweather
+2023-11-25 09:16:05,261 | INFO : Getting rain data - attempt 1/3
+2023-11-25 09:16:05,579 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-25 09:16:05,584 | INFO : Getting temp data - attempt 1/3
+2023-11-25 09:16:05,825 | INFO : Retrieved temp data from openweather
+2023-11-25 09:31:06,521 | INFO : Getting rain data - attempt 1/3
+2023-11-25 09:31:06,827 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-25 09:31:06,834 | INFO : Getting temp data - attempt 1/3
+2023-11-25 09:31:07,149 | INFO : Retrieved temp data from openweather
+2023-11-25 09:46:07,891 | INFO : Getting rain data - attempt 1/3
+2023-11-25 09:46:08,259 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-25 09:46:08,264 | INFO : Getting temp data - attempt 1/3
+2023-11-25 09:46:08,551 | INFO : Retrieved temp data from openweather
+2023-11-25 10:01:09,311 | INFO : Getting rain data - attempt 1/3
+2023-11-25 10:01:09,640 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-25 10:01:09,644 | INFO : Getting temp data - attempt 1/3
+2023-11-25 10:01:09,955 | INFO : Retrieved temp data from openweather
+2023-11-25 10:16:10,819 | INFO : Getting rain data - attempt 1/3
+2023-11-25 10:16:11,155 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-25 10:16:11,160 | INFO : Getting temp data - attempt 1/3
+2023-11-25 10:16:11,429 | INFO : Retrieved temp data from openweather
+2023-11-25 10:31:12,201 | INFO : Getting rain data - attempt 1/3
+2023-11-25 10:31:12,499 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-25 10:31:12,503 | INFO : Getting temp data - attempt 1/3
+2023-11-25 10:31:12,753 | INFO : Retrieved temp data from openweather
+2023-11-25 10:46:13,511 | INFO : Getting rain data - attempt 1/3
+2023-11-25 10:46:13,818 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-25 10:46:13,822 | INFO : Getting temp data - attempt 1/3
+2023-11-25 10:46:14,104 | INFO : Retrieved temp data from openweather
+2023-11-25 11:01:14,918 | INFO : Getting rain data - attempt 1/3
+2023-11-25 11:01:15,228 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-25 11:01:15,233 | INFO : Getting temp data - attempt 1/3
+2023-11-25 11:01:15,735 | INFO : Retrieved temp data from openweather
+2023-11-25 11:16:16,222 | INFO : Getting rain data - attempt 1/3
+2023-11-25 11:16:16,516 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-25 11:16:16,520 | INFO : Getting temp data - attempt 1/3
+2023-11-25 11:16:16,827 | INFO : Retrieved temp data from openweather
+2023-11-25 11:31:17,581 | INFO : Getting rain data - attempt 1/3
+2023-11-25 11:31:17,911 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-25 11:31:17,915 | INFO : Getting temp data - attempt 1/3
+2023-11-25 11:31:18,268 | INFO : Retrieved temp data from openweather
+2023-11-25 11:46:19,021 | INFO : Getting rain data - attempt 1/3
+2023-11-25 11:46:19,343 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-25 11:46:19,347 | INFO : Getting temp data - attempt 1/3
+2023-11-25 11:46:19,638 | INFO : Retrieved temp data from openweather
+2023-11-25 12:01:20,501 | INFO : Getting rain data - attempt 1/3
+2023-11-25 12:01:20,825 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-25 12:01:20,829 | INFO : Getting temp data - attempt 1/3
+2023-11-25 12:01:21,130 | INFO : Retrieved temp data from openweather
+2023-11-25 12:16:21,971 | INFO : Getting rain data - attempt 1/3
+2023-11-25 12:16:22,313 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-25 12:16:22,317 | INFO : Getting temp data - attempt 1/3
+2023-11-25 12:16:22,600 | INFO : Retrieved temp data from openweather
+2023-11-25 12:31:23,412 | INFO : Getting rain data - attempt 1/3
+2023-11-25 12:31:23,815 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-25 12:31:23,820 | INFO : Getting temp data - attempt 1/3
+2023-11-25 12:31:24,127 | INFO : Retrieved temp data from openweather
+2023-11-25 12:37:57,873 | INFO : Started
+2023-11-25 12:37:57,880 | INFO : Getting rain data - attempt 1/3
+2023-11-25 12:37:58,148 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-25 12:37:58,163 | INFO : Getting temp data - attempt 1/3
+2023-11-25 12:37:58,401 | INFO : Retrieved temp data from openweather
+2023-11-25 12:38:07,558 | INFO : Stopping script
+2023-11-25 13:26:00,073 | INFO : Started
+2023-11-25 13:26:00,112 | INFO : Getting rain data - attempt 1/3
+2023-11-25 13:26:00,516 | INFO : Retrieved 0 predictions on rain levels from Buienradar.nl
+2023-11-25 13:26:00,519 | INFO : Getting temp data - attempt 1/3
+2023-11-25 13:27:38,612 | INFO : Retrieved temp data from openweather
+2023-11-25 13:28:08,678 | INFO : Stopping script
+2023-11-25 13:30:15,620 | INFO : Started
+2023-11-25 13:30:15,626 | INFO : Getting rain data - attempt 1/3
+2023-11-25 13:30:15,987 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-25 13:30:16,004 | INFO : Getting temp data - attempt 1/3
+2023-11-25 13:30:16,270 | INFO : Retrieved temp data from openweather
+2023-11-25 13:30:21,599 | INFO : Stopping script
+2023-11-25 13:32:11,866 | INFO : Started
+2023-11-25 13:32:11,872 | INFO : Getting rain data - attempt 1/3
+2023-11-25 13:32:12,152 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-25 13:32:12,166 | INFO : Getting temp data - attempt 1/3
+2023-11-25 13:32:12,435 | INFO : Retrieved temp data from openweather
+2023-11-25 13:32:15,406 | INFO : Stopping script
+2023-11-25 13:32:20,793 | INFO : Started
+2023-11-25 13:32:20,799 | INFO : Getting rain data - attempt 1/3
+2023-11-25 13:32:21,035 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-25 13:32:21,050 | INFO : Getting temp data - attempt 1/3
+2023-11-25 13:32:21,281 | INFO : Retrieved temp data from openweather
+2023-11-25 13:32:23,430 | INFO : Stopping script
