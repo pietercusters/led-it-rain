@@ -1683,3 +1683,100 @@
 2023-11-25 14:52:38,739 | INFO : Retrieved temp data from openweather
 2023-11-25 15:01:53,137 | INFO : Started
 2023-11-25 15:01:53,710 | INFO : Retrieved temp data from openweather
+2023-11-25 15:03:17,720 | INFO : Started
+2023-11-25 15:03:18,230 | INFO : Retrieved temp data from openweather
+2023-11-25 15:03:42,924 | INFO : Stopping script
+2023-11-25 15:06:40,543 | INFO : Started
+2023-11-25 15:06:40,595 | INFO : Stopping script
+2023-11-25 15:06:45,615 | INFO : Started
+2023-11-25 15:06:45,632 | INFO : Getting rain data - attempt 1/3
+2023-11-25 15:06:45,946 | INFO : Retrieved 24 predictions on rain levels from Buienradar.nl
+2023-11-25 15:06:45,965 | INFO : Getting temp data - attempt 1/3
+2023-11-25 15:06:46,206 | INFO : Retrieved temp data from openweather
+2023-11-25 15:07:55,253 | INFO : Stopping script
+2023-11-25 15:08:03,630 | INFO : Started
+2023-11-25 15:08:04,151 | INFO : Retrieved temp data from openweather
+2023-11-25 15:08:28,005 | INFO : Stopping script
+2023-11-25 15:12:39,700 | INFO : Started
+2023-11-25 15:12:40,208 | INFO : Retrieved temp data from openweather
+2023-11-25 15:12:47,966 | INFO : Stopping script
+2023-11-25 15:08:55,480 | INFO : Started
+2023-11-25 15:09:00,477 | INFO : Started
+2023-11-25 15:09:00,550 | INFO : Stopping script
+2023-11-25 15:14:13,294 | INFO : Retrieved temp data from openweather
+2023-11-25 15:14:14,780 | INFO : Retrieved temp data from openweather
+2023-11-25 15:15:54,612 | INFO : Started
+2023-11-25 15:15:54,672 | INFO : Stopping script
+2023-11-25 15:15:59,490 | INFO : Started
+2023-11-25 15:16:00,242 | INFO : Retrieved temp data from openweather
+2023-11-25 15:18:00,108 | INFO : Retrieved temp data from openweather
+2023-11-25 15:20:00,186 | INFO : Retrieved temp data from openweather
+2023-11-25 15:22:00,244 | INFO : Retrieved temp data from openweather
+2023-11-25 15:24:00,390 | INFO : Retrieved temp data from openweather
+2023-11-25 15:26:00,532 | INFO : Retrieved temp data from openweather
+2023-11-25 15:28:00,585 | INFO : Retrieved temp data from openweather
+2023-11-25 15:30:00,666 | INFO : Retrieved temp data from openweather
+2023-11-25 15:31:42,662 | INFO : Started
+2023-11-25 15:31:43,222 | INFO : Retrieved temp data from openweather
+2023-11-25 15:32:00,756 | INFO : Retrieved temp data from openweather
+2023-11-25 15:33:53,128 | INFO : Started
+2023-11-25 15:33:53,135 | INFO : Stopped weatherdisplay
+2023-11-25 15:34:00,836 | INFO : Retrieved temp data from openweather
+2023-11-25 15:35:57,785 | INFO : Started
+2023-11-25 15:35:58,386 | INFO : Retrieved temp data from openweather
+2023-11-25 15:36:00,917 | INFO : Retrieved temp data from openweather
+2023-11-25 15:36:19,492 | INFO : Detected motion
+2023-11-25 15:36:20,500 | INFO : Detected motion
+2023-11-25 15:36:21,507 | INFO : Detected motion
+2023-11-25 15:36:22,514 | INFO : Detected motion
+2023-11-25 15:36:23,520 | INFO : Detected motion
+2023-11-25 15:36:24,527 | INFO : Detected motion
+2023-11-25 15:36:52,611 | INFO : Detected motion
+2023-11-25 15:36:53,616 | INFO : Detected motion
+2023-11-25 15:36:54,623 | INFO : Detected motion
+2023-11-25 15:36:55,629 | INFO : Detected motion
+2023-11-25 15:36:58,645 | INFO : Detected motion
+2023-11-25 15:36:59,653 | INFO : Detected motion
+2023-11-25 15:37:00,661 | INFO : Detected motion
+2023-11-25 15:38:01,000 | INFO : Retrieved temp data from openweather
+2023-11-25 15:39:56,799 | INFO : Stopping script
+2023-11-25 15:40:02,253 | INFO : Started
+2023-11-25 15:40:02,258 | INFO : Activating display
+2023-11-25 15:40:02,854 | INFO : Retrieved temp data from openweather
+2023-11-25 15:40:03,859 | INFO : Activating display
+2023-11-25 15:40:04,865 | INFO : Activating display
+2023-11-25 15:40:05,871 | INFO : Activating display
+2023-11-25 15:40:06,878 | INFO : Activating display
+2023-11-25 15:40:07,884 | INFO : Activating display
+2023-11-25 15:40:08,891 | INFO : Activating display
+2023-11-25 15:40:09,898 | INFO : Activating display
+2023-11-25 15:40:10,904 | INFO : Activating display
+2023-11-25 15:40:11,911 | INFO : Activating display
+2023-11-25 15:40:12,917 | INFO : Activating display
+2023-11-25 15:40:13,923 | INFO : Activating display
+2023-11-25 15:40:14,929 | INFO : Activating display
+2023-11-25 15:40:15,935 | INFO : Activating display
+2023-11-25 15:40:16,942 | INFO : Activating display
+2023-11-25 15:40:17,948 | INFO : Activating display
+2023-11-25 15:40:18,955 | INFO : Activating display
+2023-11-25 15:40:30,479 | INFO : Activating display
+2023-11-25 15:40:31,485 | INFO : Activating display
+2023-11-25 15:40:32,491 | INFO : Activating display
+2023-11-25 15:40:33,498 | INFO : Activating display
+2023-11-25 15:40:34,504 | INFO : Activating display
+2023-11-25 15:40:43,997 | INFO : Stopped weatherdisplay
+2023-11-25 15:44:25,371 | INFO : Started
+2023-11-25 15:44:25,965 | INFO : Retrieved temp data from openweather
+2023-11-25 15:44:33,000 | INFO : Motion detected
+2023-11-25 15:44:34,006 | INFO : Motion detected
+2023-11-25 15:44:35,012 | INFO : Motion detected
+2023-11-25 15:44:36,019 | INFO : Motion detected
+2023-11-25 15:44:37,027 | INFO : Motion detected
+2023-11-25 15:45:42,267 | INFO : Started
+2023-11-25 15:45:42,833 | INFO : Retrieved temp data from openweather
+2023-11-25 15:46:15,644 | INFO : Started
+2023-11-25 15:46:16,188 | INFO : Retrieved temp data from openweather
+2023-11-25 15:46:22,204 | INFO : Motion detected
+2023-11-25 15:46:30,236 | INFO : Motion detected
+2023-11-25 15:46:35,758 | INFO : Motion detected
+2023-11-25 15:46:55,848 | INFO : Motion detected

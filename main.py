@@ -8,6 +8,7 @@ from luma.led_matrix.device import max7219
 from luma.core.interface.serial import spi, noop
 from luma.core.render import canvas
 from pont import get_ferry_ETD
+import RPi.GPIO as GPIO
 
 # input lat & long from address here
 LAT = 52.353681668987726
@@ -16,6 +17,9 @@ UPDATE_INTERVAL = 60 * 2  # Refresh temp & ETD every 2 minutes
 DISPLAY_INTERVAL = 1      # Update every second
 CYCLE_TIME = 5            # show every cycle 5 seconds
 HEAVY = 2.5
+MOTION_SENSOR_PIN = 25  # GPIO pin number for the motion sensor
+MOTION_INTERVAL = 2  # amount of time to activate the display after motion detected
+
 
 # Initialize the LED matrix
 def init_matrix():
@@ -30,13 +34,27 @@ def main():
     logging.info('Started')
 
     device = init_matrix()
+    GPIO.setmode(GPIO.BCM)
+    GPIO.setup(MOTION_SENSOR_PIN, GPIO.IN)
     last_update_time = None
+    last_motion_time = datetime.now()
+    last_motion_state = True
 
     try:
         while True:
             current_time = datetime.now()
-            if 7 <= current_time.hour < 23:
-                # Update the display if it's between 07:00 and 23:00
+
+            # log only when motion state changes, always update time
+            current_motion_state = GPIO.input(MOTION_SENSOR_PIN)
+            if current_motion_state != last_motion_state:
+                last_motion_state = current_motion_state
+                if current_motion_state:
+                    logging.info('Motion detected')
+            if current_motion_state:
+                last_motion_time = datetime.now()
+
+            if not last_motion_time or (current_time - last_motion_time).total_seconds() \
+                    < MOTION_INTERVAL:
                 if not last_update_time or \
                         (current_time - last_update_time).total_seconds() \
                         > UPDATE_INTERVAL:
@@ -61,22 +79,23 @@ def main():
                 # Clear the display outside the specified time window
                 device.hide()
 
-                # wait 5mins to see if already time to rise & shine
-                sleep(5*60)
+                # check sensor again in 0.5 seconds
+                sleep(0.5)
 
 
     except KeyboardInterrupt:
         pass
     finally:
         # Clear the display when exiting the script
-        logging.info('Stopping script')
+        GPIO.cleanup()
         with canvas(device) as draw:
             device.hide()
+        logging.info('Stopped weatherdisplay')
 
 def update_display(device, temp, ETD, rain):
     with canvas(device) as draw:
 
-        if int(datetime.now().second / CYCLE_TIME) % 2 == 0:
+        if int(datetime.now().second / CYCLE_TIME) % 2 == 0 or ETD is None:
             #draw weather
 
             if rain is not None:

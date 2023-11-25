@@ -12,10 +12,10 @@ def main():
     init_motion_sensor()
     last_state = None
 
-    print("Warming up...")
-    time.sleep(60)
 
     try:
+        print("Warming up...")
+        time.sleep(5)
         while True:
             current_state = GPIO.input(MOTION_SENSOR_PIN)
             if current_state != last_state:
