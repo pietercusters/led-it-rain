@@ -72,8 +72,8 @@ def main():
 
                     last_update_time = current_time
 
-                update_display(device, temp, ETD, rain)
                 device.show()
+                update_display(device, temp, ETD, rain)
                 sleep(DISPLAY_INTERVAL)
             else:
                 # Clear the display outside the specified time window
@@ -95,7 +95,7 @@ def main():
 def update_display(device, temp, ETD, rain):
     with canvas(device) as draw:
 
-        if int(datetime.now().second / CYCLE_TIME) % 2 == 0 or ETD is None:
+        if ETD is None or int(datetime.now().second / CYCLE_TIME) % 2 == 0:
             #draw weather
 
             if rain is not None:
