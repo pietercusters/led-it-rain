@@ -32,7 +32,7 @@ def get_rain(lat, lng):
         if time_slot > current_time:
             rain_intensities.append(rain_mm_h)
 
-    max_intensity = max(2.5, max(rain_intensities))
+    max_intensity = max(4.0, max(rain_intensities))
     scaled_intensities = [round(rain/max_intensity*8) for rain in rain_intensities]
 
     return scaled_intensities
